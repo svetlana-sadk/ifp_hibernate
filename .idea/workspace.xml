@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7986b90e-6e5e-4822-a77c-7bedccde4f99" name="Default Changelist" comment="" />
+    <list default="true" id="7986b90e-6e5e-4822-a77c-7bedccde4f99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Journalist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ifp_hibernate/Domain/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ifp_hibernate/Domain/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ifp_hibernate/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ifp_hibernate/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ifp_hibernate/Tests/HibernateBasicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ifp_hibernate/Tests/HibernateBasicTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/HibernateBasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/HibernateBasicTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +26,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aFPzqJp2Ks77hMsUSOkEpnWCv3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,12 +42,77 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysql-connector-java-8.0.19.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.HibernateBasicTest.readJournalistByIdTest">
+    <configuration name="HibernateBasicTest.createJournalist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifp_hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.HibernateBasicTest" />
+      <option name="METHOD_NAME" value="createJournalist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateBasicTest.createReporter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifp_hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.HibernateBasicTest" />
+      <option name="METHOD_NAME" value="createReporter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateBasicTest.readJournalistByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifp_hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.HibernateBasicTest" />
+      <option name="METHOD_NAME" value="readJournalistByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateBasicTest.readReporterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifp_hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.HibernateBasicTest" />
+      <option name="METHOD_NAME" value="readReporterTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HibernateBasicTest.sessionOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifp_hibernate" />
       <extension name="coverage">
@@ -50,6 +131,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HibernateBasicTest.readJournalistByIdTest" />
+        <item itemvalue="JUnit.HibernateBasicTest.createJournalist" />
+        <item itemvalue="JUnit.HibernateBasicTest.createReporter" />
+        <item itemvalue="JUnit.HibernateBasicTest.readReporterTest" />
         <item itemvalue="JUnit.HibernateBasicTest.sessionOk" />
       </list>
     </recent_temporary>
@@ -68,10 +153,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1586336423136">
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1586355385013">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586336423136" />
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586355385013" />
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586363188324">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1586363188324" />
     <state x="239" y="52" key="DetectedRootsChooserDialog" timestamp="1586332402878">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -80,22 +169,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="84" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586348841562" />
-    <state width="1237" height="142" key="GridCell.Tab.0.bottom" timestamp="1586348864829">
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1586363696613">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="142" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586348864829" />
-    <state width="1237" height="142" key="GridCell.Tab.0.center" timestamp="1586348864829">
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586363696613" />
+    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1586363696613">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="142" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586348864829" />
-    <state width="1237" height="142" key="GridCell.Tab.0.left" timestamp="1586348864829">
+    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586363696613" />
+    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1586363696613">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="142" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586348864829" />
-    <state width="1237" height="142" key="GridCell.Tab.0.right" timestamp="1586348864829">
+    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586363696613" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1586363696613">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="142" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586348864829" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586363696613" />
     <state x="219" y="0" key="SettingsEditor" timestamp="1586348856999">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -104,17 +193,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="376" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1586335626534" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1586360002947">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1586360002947" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Tests/HibernateBasicTest.java</url>
-          <line>12</line>
-          <properties class="Tests.HibernateBasicTest" method="sessionOk">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Domain/Tag.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
